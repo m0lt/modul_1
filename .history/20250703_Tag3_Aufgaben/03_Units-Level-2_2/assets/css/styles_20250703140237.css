@@ -1,0 +1,18 @@
+img{
+    width: 100vw;
+}
+
+h2{
+    color: white;
+    font-size: 2rem;
+    background-color: #7c7c7c80;
+
+    
+
+}
+
+div{
+    width: 70vw;
+    margin: auto;
+    padding: 10px 80px;
+}

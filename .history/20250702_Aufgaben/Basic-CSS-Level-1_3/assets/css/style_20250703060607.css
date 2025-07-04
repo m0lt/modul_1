@@ -1,0 +1,23 @@
+body{
+    background-color: lightgrey;
+}
+
+header{
+    background-color: gray;
+}
+
+.Small{
+    width: 400px;
+    height: 400px;
+}
+
+.Medium{
+    width: 600px;
+    height: 600px;
+}
+
+.Large{
+    width: 800px;
+    height: 800px;
+}
+

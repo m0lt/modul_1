@@ -1,0 +1,19 @@
+File and Directory Management:
+------------------------------
+ls               - List files and directories
+ls -l            - List with detailed info (long format)
+ls -a            - List all files including hidden ones
+pwd              - Print current working directory
+cd [dir]         - Change directory to [dir]
+cd ..            - Go up one directory
+mkdir [dir]      - Create a new directory named [dir]
+touch [file]     - Create a new empty file named [file]
+rm [file]        - Remove a file
+rm -r [dir]      - Remove a directory and its contents
+
+Shortcuts:
+-----------
+Ctrl + C         - Stop current command
+Ctrl + L         - Clear terminal (like 'clear')
+
+

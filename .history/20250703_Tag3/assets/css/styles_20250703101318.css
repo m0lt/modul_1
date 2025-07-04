@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    /* unser root verzeichnis */
+    font-size: 16px;
+    /* font-size: 62.5%; */
+    /*ergibt 10 px */
+
+}
+
+
+:root{
+    --header-h2-color: #ff1555;
+}
+
+h2{
+    color: red;
+}

@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ebene 1 */
+ul > li {
+    /* list-style: none; */
+    font-size: 0.8em;
+    line-height: 1.5em;
+    padding-left: 100px;
+}
+
+/* Ebene 2 */
+ul > li > ul > li {
+    /* list-style: none; */
+    font-size: 0.8em;
+    line-height: 1.5em;
+    padding-left: 50px;
+}
+
+/* Ebene 3 */
+ul > li > ul > li > ul > li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+
+
+.dog{
+    list-style: "🐶";
+}
+.cat{
+    list-style: "🐱";
+}
+.parrot{
+    list-style: "🦜";
+}
+.snake{
+    list-style: "🐍";
+}
+.lizard{
+    list-style: "🦎";
+}

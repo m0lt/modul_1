@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    /* unser root verzeichnis */
+    font-size: 16px;
+    /* font-size: 62.5%; */
+    /*ergibt 10 px */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Root ist wie ein Lagerhasu und man kann bestimmte eigenschaften auslagern und sie später wieder verweden. */
+:root{
+    --header-h2-color: #ff1555;
+    width: 400px;
+    --bg-color-yellow: rgb(253, 152, 0);
+}
+
+h2{
+    color: red;
+}

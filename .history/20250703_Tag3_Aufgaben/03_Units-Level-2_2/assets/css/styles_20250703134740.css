@@ -1,0 +1,10 @@
+img{
+    width: 100vw;
+}
+
+header{
+    color: white;
+    font-size: 2rem;
+    background-color: #FFFF0080;
+    display: inline-block;
+}

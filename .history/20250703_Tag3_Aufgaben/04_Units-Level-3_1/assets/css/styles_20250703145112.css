@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@font-face {
+    font-family: "Barriecito";
+    src: url("../font/Barriecito-Regular.ttf");
+}
+
+
+img{
+    height: 100vh;
+}
+
+main{
+    padding: 5%;
+}
+
+article{
+    padding: 2%;
+    margin: auto 100px;
+    border-radius: 15%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+h1{
+    font-family: "Barriecito";
+    font-size: 2rem;
+    text-shadow: 0 0 10px white;
+    
+    padding: 0 15%;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+p{
+    font-size: 14px;
+    text-align: center;
+}

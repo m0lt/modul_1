@@ -1,0 +1,12 @@
+
+p{
+    color: darkslategray;
+}
+    article ul li:last-child(){
+        background-color: rebeccapurple;
+        color: white;
+    }
+
+    h2: last-of-type{
+        color: red;
+    }

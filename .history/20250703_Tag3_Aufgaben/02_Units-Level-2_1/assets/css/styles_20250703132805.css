@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px;
+}
+/* Ebene 1 */
+ul > li {
+    color: green;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    list-style: none;
+    /* padding-inline-start: 5px; */
+}
+
+/* Ebene 2 */
+ul > li > ul > li {
+    /* padding-inline-start: 15px; */
+    color: red;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+/* Ebene 3 */
+ul > li > ul > li > ul > li {
+    color: blue;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+
+
+.dog{
+    list-style: "🐶" !important;
+}
+.cat{
+    list-style: "🐱";
+}
+.parrot{
+    list-style: "🦜";
+}
+.snake{
+    list-style: "🐍";
+}
+.lizard{
+    list-style: "🦎";
+}

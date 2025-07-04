@@ -1,0 +1,19 @@
+div{
+    padding: 20px;
+    border: 10px solid rebeccapurple;
+    width: 50%;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    border: 10px solid peachpuff;
+}

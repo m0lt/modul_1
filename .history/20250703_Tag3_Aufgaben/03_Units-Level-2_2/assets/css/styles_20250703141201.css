@@ -1,0 +1,18 @@
+img{
+    width: 100vw;
+}
+
+
+
+div{
+    width: 70vw;
+    margin: auto;
+    /* display: inline; */
+    padding: 10px 80px;
+    color: #7c7c7c80;
+}
+
+div h2{
+    color: white;
+    font-size: 2rem;
+}

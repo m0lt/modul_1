@@ -1,0 +1,20 @@
+
+p{
+    color: darkslategray;
+}
+    article ul li:last-child(){
+        background-color: rebeccapurple;
+        color: white;
+    }
+
+    h2:last-of-type{
+        color: red;
+    }
+
+      h2:first-of-type{
+        color: blue;
+    }
+
+          h2:nth-of-type(1){
+        color: orange;
+    }

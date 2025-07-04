@@ -1,0 +1,19 @@
+img{
+    width: 100vw;
+}
+
+header{
+    color: white;
+    font-size: 2rem;
+    background-color: #7c7c7c80;
+    width: 70vw;
+    margin: auto;
+    position: relative;
+    left: 50vw;
+    bottom: 50vh;
+
+}
+
+h1{
+    padding: 10px 80px;
+}

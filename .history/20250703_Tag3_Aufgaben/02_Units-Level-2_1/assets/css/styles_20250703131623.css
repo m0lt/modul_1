@@ -1,0 +1,37 @@
+/* Ebene 1 */
+ul > li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+/* Ebene 2 */
+ul > li > ul > li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+/* Ebene 3 */
+ul > li > ul > li > ul > li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+
+
+
+
+.dog{
+    list-style: "🐶";
+}
+.cat{
+    list-style: "🐱";
+}
+.parrot{
+    list-style: "🦜";
+}
+.snake{
+    list-style: "🐍";
+}
+.lizard{
+    list-style: "🦎";
+}

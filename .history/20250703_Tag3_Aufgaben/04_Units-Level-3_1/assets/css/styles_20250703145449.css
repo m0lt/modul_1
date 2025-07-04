@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@font-face {
+    font-family: "Barriecito";
+    src: url("../font/Barriecito-Regular.ttf");
+}
+
+
+img{
+    height: 100vh;
+}
+header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+main{
+    padding: 5%;
+}
+
+section{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+article{
+    background-color: #FFFFFF50;
+        padding: 2%;
+    margin: auto 100px;
+    border-radius: 15%;
+}
+
+h1{
+    font-family: "Barriecito";
+    font-size: 2rem;
+    text-shadow: 0 0 10px white;
+    text-align: center;
+    padding: 0 15%;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+p{
+    font-size: 14px;
+    text-align: center;
+}
