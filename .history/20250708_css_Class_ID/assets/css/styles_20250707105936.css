@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+:root{
+    --primary-color: #3498db;
+    --font-size: 16px;
+    --margin-bottom: 100px;
+}
+
+/* ? ==============HEADER============= */
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 7em;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+header p:nth-of-type(2){
+    margin-bottom: 50px;
+
+}
+
+header p::first-letter, h1::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+
+
+li::marker{
+    font-family: "Font Awesome 6 Free";
+    content: "\f256";
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    margin-right: 20px;
+    
+}
+
+.hamburger{
+    top: 50%;
+    left: 10%;
+    width: 30px;
+    height: 6px;
+    background-color: black;
+    position: relative;
+}
+
+.hamburger::before{
+    content: " ";
+    top: 16px;
+    width: 30px;
+    height: 6px;
+    background-color: blue;
+    position: absolute;
+
+}
+
+.hamburger::after{
+    content: " ";
+    top: -16px;
+    width: 30px;
+    height: 6px;
+    background-color: red;
+    position: absolute;
+}
+
+section{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    width: 45vw;
+    margin: 0 auto 5% auto;
+}
+
+section h2::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f256";
+    color: blue;
+    display: inline-block;
+    /* background-color: aquamarine;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px; */
+}
+
+section h2::after {
+    font-family: "Font Awesome 6 Free";
+    content: "\f256";
+    color: blueviolet;
+    display: inline-block;
+    /* background-color: aquamarine;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px; */
+
+}
+
+section:nth-last-of-type(1) p {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid pink;
+    font-size: 50px;
+}
+
+section:nth-last-of-type(1) p:hover {
+    cursor: pointer;
+    border: 2p dotted yellowgreen;
+    color: yellowgreen;
+}
+
+/* =====Fokus auf Backgrund===== */
+#backgroundImg{
+    background-image: url("https://plus.unsplash.com/premium_photo-1681666713728-9ed75e148617?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-color: bisque;
+    height: 80vh;
+    background-size: cover;
+    background-size: contain;
+    background-size: ;
+}
