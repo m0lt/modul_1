@@ -1,0 +1,10 @@
+.gender div,
+.activity {
+  display: inline;
+}
+
+.col1 {
+  width: 300px;
+  display: inline-block;
+  padding-bottom: 5px;
+}

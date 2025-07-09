@@ -6,5 +6,85 @@
     <link rel="stylesheet" href="./assets/styles.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Register form</legend>
+
+        <section class="name">
+          <label class="col1" for="name">Name</label>
+          <input type="text" name="" id="name" required placeholder="Name" />
+        </section>
+
+        <section class="surename">
+          <label class="col1" for="surename">Surename</label>
+          <input type="text" name="" id="surename" required placeholder="Surename" />
+        </section>
+
+        <section class="email">
+          <label class="col1" for="email">E-Mail</label>
+          <input type="email" name="" id="email" placeholder="Email" />
+        </section>
+
+        <section class="gender">
+          <label class="col1" for="gender">Gender</label>
+          <div>
+            <div>
+              <label for="ja">Male</label>
+              <input type="radio" name="auswahl" id="ja" />
+            </div>
+            <div>
+              <label for="nein">Female</label>
+              <input type="radio" name="auswahl" id="nein" />
+            </div>
+          </div>
+        </section>
+        <section class="file_section">
+          <div>
+            <label class="col1" for="file">Picture</label>
+            <input type="file" name="" id="file" />
+          </div>
+        </section>
+
+        <section class="country">
+          <div>
+            <label class="col1" for="country">Country</label>
+            <select name="" id="country">
+              <label for="thema">Thema</label>
+              <option value="Germany">Germany</option>
+              <option value="Austria">Austria</option>
+              <option value="Switzerland">Switzerland</option>
+            </select>
+          </div>
+        </section>
+        <section class="select_setion">
+          <div>
+            <label class="col1" for="languages">Preferred languages</label>
+            <select name="" id="languages" multiple>
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+              <option value="JS">JS</option>
+              <option value="React">React</option>
+            </select>
+            <span>(To choose more than one use cmd key)</span>
+          </div>
+        </section>
+        <section>
+          <div class="activity">
+            <div class="col1"><label for="">Field of activity</label></div>
+            <input type="checkbox" name="" id="" value="IT" />
+            <label for="IT">IT</label>
+            <input type="checkbox" name="" id="" value="Design" />
+            <label for="Design">Design</label>
+            <input type="checkbox" name="" id="" value="Other" />
+            <label for="Other">Other</label>
+          </div>
+        </section>
+        <section class="btns">
+          <button type="reset">Cancel</button>
+          <button type="submit">Submit</button>
+        </section>
+      </fieldset>
+    </form>
+  </body>
 </html>
