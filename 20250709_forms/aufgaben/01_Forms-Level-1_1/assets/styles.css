@@ -13,16 +13,28 @@ body {
   margin: 0 auto;
 }
 form {
-  width: 40vw;
+  width: 30vw;
+  margin: 30vh auto;
 }
 section {
+  padding-bottom: 10px;
+  width: 100%;
 }
 label {
   font-weight: 700;
 }
 
-input {
+input,
+select,
+textarea {
   padding: 3px 6px;
+  margin-top: 3px;
+  width: 100%;
+  /* height: 30px; */
+}
+
+textarea {
+  height: 200px;
 }
 
 input,
@@ -32,4 +44,20 @@ label {
 .required label::after {
   content: "*";
   color: red;
+}
+
+.submit button {
+  border: none;
+  background-color: #5f97aa;
+  color: white;
+  width: 100%;
+  padding: 10px 0;
+}
+.nameRequired {
+  width: 100%;
+}
+
+.name input {
+  display: inline;
+  width: 49%;
 }
