@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action="">
+      <fieldset>
+        <!-- Beschriftung von Fieldset?? -->
+        <legend>Label und input</legend>
+        <section class="text_section">
+          <!-- Feldbeschriftung -->
+          <label for="text">Gib hier ein Text ein</label>
+          <!-- Inputfeld -->
+          <input type="text" name="" id="text" />
+          <!-- Attribute: placeholder, disabled, required -->
+        </section>
+        <section class="number_section">
+          <label for="number">Gib mir eine Zahl</label>
+          <input type="number" name="" id="number" />
+        </section>
+        <section class="telefon_section">
+          <label for="telefon">Gib mal deine Handynummer</label>
+          <input type="tel" name="" id="telefon" />
+        </section>
+        <section class="mail_section">
+          <label for="email">Mail bitte</label>
+          <input type="email" name="" id="email" required placeholder="emailadress" />
+        </section>
+        <section class="password_section">
+          <label for="password">Passwort her</label>
+          <input type="password" name="" id="password" placeholder="kennwort" />
+        </section>
+
+        <hr />
+
+        <h3>Habe ich genug geld für meinen Urlaub?</h3>
+        <section class="radio_section"></section>
+        <div>
+          <input type="radio" name="auswahl" id="ja" />
+          <label for="ja">Ja</label>
+        </div>
+        <div>
+          <input type="radio" name="auswahl" id="nein" />
+          <label for="nein">Nein</label>
+        </div>
+        <div>
+          <input type="radio" name="auswahl" id="vielleicht" />
+          <label for="vielleicht">Vielleicht</label>
+        </div>
+
+        <h3>Ich packe meinen koffer</h3>
+        <div>
+          <input type="checkbox" name="koffer" id="hose" />
+          <label for="hose">Hose</label>
+        </div>
+        <div>
+          <input type="checkbox" name="koffer" id="unterhose" />
+          <label for="unterhose">Unterhose</label>
+        </div>
+        <div>
+          <input type="checkbox" name="koffer" id="tshirt" />
+          <label for="tshirt">T-Shirt</label>
+        </div>
+
+        <section class="select_setion">
+          <h4>Meine Reiseziele...</h4>
+
+          <div>
+            <label for="countries">Meine Länder</label>
+            <select name="" id="countries">
+              <option value="Deutschland">Deutschland</option>
+              <option value="Kroatien">Kroatien</option>
+            </select>
+          </div>
+        </section>
+      </fieldset>
+    </form>
+  </body>
+</html>

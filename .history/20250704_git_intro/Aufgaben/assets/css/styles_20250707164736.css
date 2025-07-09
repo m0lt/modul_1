@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/Roboto/Roboto-VariableFont_wdth\,wght.ttf");
+}
+
+html {
+  font-family: "Roboto";
+  padding: 20px 5vw 20px 5vw;
+  margin: 0 auto;
+  background: #eeeeee;
+}
+
+nav li {
+  color: #73998a;
+  display: inline-block;
+  list-style: none;
+  padding-right: 10px;
+}
+
+nav {
+  padding-bottom: ;
+}
+
+.titleWrapper {
+  width: 20vw;
+}
+h1 {
+  color: #73998a;
+  font-size: 50px;
+  font-weight: 300;
+}
+h2 {
+  color: #080808;
+}
