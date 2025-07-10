@@ -1,8 +1,0 @@
-h1::first-letter {
-  color: brown;
-  font-size: 2rem;
-}
-
-.done {
-  text-decoration: line-through;
-}

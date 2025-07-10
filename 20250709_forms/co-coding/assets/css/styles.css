@@ -31,7 +31,7 @@ input {
   border: none;
   border-radius: 10px;
 }
-,
+
 #number {
   padding: 5px 20px;
   margin: 5px 10px;
@@ -53,6 +53,5 @@ input[type="button"] {
   border: 2px solid red;
 }
 
-textarea{
-  
+textarea {
 }
