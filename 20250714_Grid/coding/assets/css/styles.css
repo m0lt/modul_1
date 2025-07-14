@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 90vw 10vw;
+  grid-template-rows: 50px 1fr 80px;
+  grid-template-areas:
+    "header header"
+    "main aside"
+    "footer aside";
+}
+
+header {
+  background-color: peru;
+  grid-area: header;
+}
+
+main {
+  background-color: limegreen;
+  grid-area: main;
+  overflow: auto;
+}
+
+aside {
+  background-color: brown;
+  grid-area: aside;
+}
+
+footer {
+  background-color: blueviolet;
+  grid-area: footer;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 200px 200px 1fr;
+  grid-template-rows: 200px 30vh 200px 300px 100px;
+  gap: 20px;
+}
+
+section > * {
+  border: 1px solid red;
+}
+
+.box1 {
+  background-color: crimson;
+  /* grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2; */
+  grid-column: 1 / 3;
+  grid-row: 1/2;
+}
+
+.box2 {
+  background-color: blue;
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+
+.box3 {
+  background-color: yellow;
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.box4 {
+  background-color: salmon;
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.box5 {
+  background-color: aqua;
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.box6 {
+  background-color: chocolate;
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+
+.box7 {
+  background-color: purple;
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+
+article {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 100px);
+  grid-template-areas:
+    "Batman Batman Aquaman Aquaman"
+    "Deadpool Superman Ironman Ironman"
+    "Hulk Thor Thor Thor"
+    "Hulk Superwoman";
+}
+
+.container1 {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: Batman;
+}
+
+.container2 {
+  grid-area: Aquaman;
+  background-color: aqua;
+}
+
+.container3 {
+  grid-area: Deadpool;
+  background-color: red;
+}
+
+.container4 {
+  grid-area: Superman;
+  background-color: blue;
+}
+
+.container5 {
+  grid-area: Ironman;
+  background-color: chocolate;
+  place-items: center center;
+}
+
+.container6 {
+  grid-area: Hulk;
+  background-color: darkgreen;
+}
+
+.container7 {
+  grid-area: Thor;
+  background-color: blueviolet;
+}
+
+.container8 {
+  grid-area: Superwoman;
+  background-color: crimson;
+}
