@@ -1,0 +1,11 @@
+/*!MOBILE FIRST: Von Mobile Design zu Desktop*/
+
+/*?Desktop*/
+@media only screen and (min-width: 992px) {
+  nav {
+  }
+
+  .burger-wrapper {
+    display: none;
+  }
+}
