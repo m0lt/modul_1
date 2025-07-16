@@ -8,4 +8,7 @@
   .burger-wrapper {
     display: none;
   }
+  body {
+    background-color: red;
+  }
 }
