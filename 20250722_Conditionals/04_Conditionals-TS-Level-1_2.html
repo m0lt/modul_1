@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conditionals-TS-Level-1_2</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <h1>Wetterqualität</h1>
+    <br />
+    <!-- <form onsubmit="weather(); return false"> -->
+    <!-- der funtionsname "weather()"" hat mir den error Uncaught TypeError: (intermediate value).weather is not a function gegeben... -->
+    <form onsubmit="weatherTester(); return false">
+      <input type="number" id="weather" />
+      <button type="submit">Senden</button>
+      <p id="result"></p>
+    </form>
+    <script src="src/04_Conditionals-TS-Level-1_2.js"></script>
+  </body>
+</html>
