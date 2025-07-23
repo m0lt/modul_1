@@ -1,0 +1,9 @@
+.big {
+  transform: scale(2);
+  background-color: red;
+}
+
+.remove {
+  font-style: 2rem;
+  background-color: crimson;
+}
