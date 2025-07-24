@@ -9,6 +9,13 @@
   <body>
     <div id="app"></div>
 
-    <script type="module" src="src/05_bonus_aufgaben"></script>
+    <p>Luftqualität: <span id="qualitaetOutput"></span></p>
+    <p id="qualitaetOutput"></p>
+    <input type="range" id="wetterSlider" min="0" max="150" step="1" value="0" oninput="checkAirQuality(this.value)" />
+    <p>Level of health concern: <span id="health"></span></p>
+
+    <p>Level of health effeect: <span id="risk"></span></p>
+
+    <script type="module" src="src/05_bonus_aufgaben.js"></script>
   </body>
 </html>
