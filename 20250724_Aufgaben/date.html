@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <form action="" id="zahlFormular">
+      <input type="text" name="" id="zahlEingabe" />
+      <button type="submit">Verdopple mich</button>
+    </form>
+    <br />
+    <br />
+    <br />
+    <form action="" id="geburtsdatumFormular">
+      <label for="datumInput">Gib dein Geburtsdatum ein:</label>
+      <input type="date" id="geburtsdatumEingabe" />
+      <button type="submit">Berechne mein Alter</button>
+    </form>
+    <p>Alter: <span id="userAge"></span></p>
+
+    <br />
+    <br />
+    <br />
+
+    <form action="" id="compareForm">
+      <label for="alterEins">Alter 1: </label>
+      <input type="date" id="alterEins" />
+      <label for="alterZwei">Alter 2: </label>
+      <input type="date" id="alterZwei" />
+      <button type="submit">Abstand ist....</button>
+    </form>
+    <p>Differenz: <span id="altersDifferenz"></span></p>
+
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS-Vertiefung-Conditionals-Level-2_5</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .style {
+        margin: auto;
+        width: 300px;
+        padding: 20px;
+        background-color: white;
+        font-family: Geneva, Tahoma, sans-serif;
+        border: 1px solid black;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #eingabeBtn {
+        background-color: greenyellow;
+        width: 200px;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 20px;
+      }
+
+      input {
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 5px;
+        width: 200px;
+        margin-bottom: 20px;
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="style">
+      <input id="colorInput" type="text" placeholder="Color" />
+      <h2>Give me a Color!</h2>
+      <input type="button" value="Senden" onclick="colorChange()" id="eingabeBtn" />
+      <div id="bundeslandInfoErgebnis"></div>
+    </div>
+    <script src="./src/color.js"></script>
+  </body>
+</html>
