@@ -1,0 +1,480 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Urbanist";
+  src: url(./font/Urbanist/Urbanist-VariableFont_wght.ttf);
+}
+
+:root {
+  --green-15: #1a3129;
+  --green-20: #234338;
+  --green-20-border: #2c5446;
+  --green-70: #cbea7b;
+  --green-85: #e5f5bd;
+  --green-95: #f6fbe9;
+  --green-100: #fafdf2;
+  --grey-30: #4c4c4d;
+  --grey-60: #98989a;
+
+  font-family: Urbanist;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.h2Subheading {
+  color: var(--grey-30);
+  margin-bottom: 50px;
+  text-align: center;
+  width: 1000px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  width: 1200px;
+}
+
+.contentWide {
+  width: 1800px;
+}
+
+button {
+  padding: 14px 20px;
+  font-family: Urbanist;
+  font-weight: 700;
+  color: var(--green-15);
+  border-radius: 8px;
+  transition: all 300ms ease-out;
+}
+
+.mainBtn {
+  background-color: var(--green-70);
+  border: 1px solid var(--green-70);
+}
+.mainBtn:hover {
+  background-color: var(--green-20);
+  border: 1px solid var(--green-20);
+  color: white;
+  cursor: pointer;
+}
+
+.skeletonBtn {
+  background-color: var(--green-95);
+  border: 1px solid var(--green-70);
+}
+
+.skeletonBtn:hover {
+  background-color: var(--green-20);
+  border: 1px solid var(--green-20);
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  background-color: var(--green-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  margin-bottom: 150px;
+}
+
+/* ?[=================== header ===================] */
+
+header,
+footer {
+  background-color: var(--green-15);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+/* ![=================== headerBanner ===================] */
+#headerBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  margin: 14px 0 14px 0;
+  padding: 0 40px 0 40px;
+  background-color: var(--green-20);
+  border: 1px solid var(--green-20-border);
+  border-radius: 4px;
+}
+
+#headerBanner img {
+  height: auto;
+  object-fit: cover;
+}
+
+#headerBanner a p {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+#headerBanner a img {
+  height: 20px !important;
+  object-fit: contain;
+}
+
+#headerBanner a {
+  display: flex;
+
+  transition: transform 300ms ease-out;
+}
+
+#headerBanner a:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+/* ![=================== headerNav ===================] */
+#headerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 25px 0px 25px 0px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+nav li {
+  list-style: none;
+  transition: all 300ms ease-out;
+}
+
+nav li:hover {
+  list-style: none;
+  text-decoration: underline;
+}
+
+/* ?[=================== main ===================] */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* ![=================== hero ===================] */
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#heroImg {
+  height: 800px;
+}
+
+#heroRight {
+  padding-left: 55px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h1 div:first-of-type {
+  padding-bottom: 30px;
+}
+#headline1 {
+  font-size: 34px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 16px;
+  text-decoration-color: var(--green-70);
+  text-decoration-thickness: 2px;
+  margin-bottom: 24px;
+}
+
+#heroClaim {
+  line-height: 150%;
+  font-weight: 300;
+  width: 600px;
+  padding-bottom: 50px;
+}
+
+#heroBtnWrapper {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 70px;
+}
+
+#happyCustomers {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* ← vertikale Zentrierung */
+  gap: 10px;
+}
+
+#customersImgWrapper {
+  display: flex;
+  padding: 8px;
+  border-radius: 500px;
+  border: 1px solid var(--green-70);
+  width: fit-content;
+}
+
+#customersImgWrapper img {
+  margin-right: -20px;
+}
+
+#customersImgWrapper img:last-child {
+  margin-right: 0;
+}
+#textWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#textWrapper p {
+  font-weight: 700;
+}
+
+/* ![=================== features ===================] */
+
+#features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardsWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--green-95);
+  border: 1px solid var(--green-85);
+  border-radius: 12px;
+  padding: 40px 50px;
+}
+
+.featureCardHeader {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.featureCardIconWrapper {
+  width: 70px;
+  height: 70px;
+  background-color: var(--green-70);
+  border: 1px solid var(--green-70);
+  border-radius: 8px;
+  padding: 14px;
+}
+/* ![=================== calorie form ===================] */
+
+#calorie,
+#calorieForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#calorieForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dataInput {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 60px;
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.labelTop {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input,
+select {
+  border: 1px solid var(--green-85);
+  border-radius: 10px;
+  padding: 12px 16px;
+  background-color: white;
+}
+
+select {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.genderSelection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.radioWrapper {
+  display: flex;
+  gap: 60px;
+  padding-top: 15px;
+}
+
+input[type="radio"]:checked {
+  accent-color: var(--green-70);
+}
+
+select:required:invalid {
+  color: var(--grey-60); /* für Placeholder-Effekt */
+}
+
+select option {
+  white-space: normal;
+  word-break: break-word;
+  padding: 8px;
+}
+
+#calorieForm button {
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+.tableWrapper {
+  border: 2px solid var(--green-70);
+  border-radius: 12px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+#resultTable {
+  background-color: white;
+  border-collapse: collapse;
+  width: 800px;
+  table-layout: fixed;
+}
+
+#resultTable th {
+  padding-top: 8px;
+  padding-left: 12px;
+  border-bottom: 1px solid var(--green-70);
+  font-weight: 400;
+  text-align: start;
+}
+#resultTable td {
+  text-align: start;
+  padding: 12px 16px;
+  width: 25%;
+}
+
+#resultTable td:first-child {
+  width: 50%;
+}
+
+#resultTable tr:last-child td {
+  border-bottom: none;
+}
+
+/* ?[=================== footer ===================] */
+/* ![=================== footerNav ===================] */
+footer {
+  padding-bottom: 50px;
+}
+
+.toTopWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.toTopImgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: var(--green-20);
+  transition: all 300ms ease-out;
+}
+.toTopImgWrapper:hover {
+  background-color: var(--green-70);
+  color: white;
+  cursor: pointer;
+}
+/* ![=================== footerContacts ===================] */
+#footerContacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 14px;
+  background-color: var(--green-20);
+  border: 1px solid var(--green-20-border);
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.contactsWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerButton {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid var(--green-20-border);
+  border-radius: 6px;
+  padding: 14px;
+  transition: all 300ms ease-out;
+}
+
+.footerButton:hover {
+  background-color: var(--green-95);
+  color: var(--green-15);
+  cursor: pointer;
+}
